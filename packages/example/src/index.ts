@@ -1,8 +1,18 @@
-import { sum } from '@jkomyno/common-utils'
+// import { sum } from '@jkomyno/common-utils'
 
-function main() {
-  const arr = [1, 2, 3]
-  console.log(`Summing ${arr.join(', ')} results in ${sum(arr)}`)
-}
+// function main() {
+//   return [
+//     { title: "New Remix App" },
+//     { name: "description", content: "Welcome to Remix!" },
+//   ];
+// }
 
-main()
+// main()
+
+export const meta = () => {
+  return [
+    { title: "New Remix App" },
+    { name: "description", content: "Welcome to Remix!" },
+  ];
+};
+
